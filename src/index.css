@@ -1,0 +1,43 @@
+
+
+.App{
+  display: flex;
+  width: 800px;
+  margin: 0 auto;
+}
+
+
+.App div{
+  flex: 1;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+ul ,li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.user-list li {
+  cursor: pointer;
+}
+.user-list li:hover {
+  color: pink;
+}
+
+.div-list{
+  margin-bottom: 20px;
+  text-align: center;
+  
+}
+
+.li-list{
+  text-align: center;
+  
+
+}
+
+.h1-list{
+  text-align: center;
+}
